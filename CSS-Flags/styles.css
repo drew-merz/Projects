@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 20px;
+    background-color: grey;
+}
+.france {
+    display: inline-block;
+}
+.color-one-fr {
+    background-color: #002495;
+    height: 200px;
+    width: 300px;
+    
+    
+}
+.color-two-fr {
+    background-color: #ffffff;
+    height: 200px;
+    width: 300px;
+}
+.color-three-fr {
+    background-color: #ed2938;
+    height: 200px;
+    width: 300px;
+}
+.germany {
+    display: inline-block;
+}
+.color-one-ger {
+    background-color: black;
+    height: 200px;
+    width: 333px;
+}
+.color-two-ger {
+    background-color: #de0002;
+    height: 200px;
+    width: 333px;
+}
+.color-three-ger {
+    background-color: #ffce00;
+    height: 200px;
+    width: 333px;
+}
+.madagascar {
+    display: inline-block;
+}
+.color-one-mad {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+}
+.color-two-mad {
+    background-color: #fc3e32;
+    height: 200px;
+    width: 300px;
+}
+.color-three-mad {
+    background-color: #007e39;
+    height: 200px;
+    width: 300px;
+}
+.switzerland {
+    display: inline-block;
+}
+.color-one-swit {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+}
+.color-two-swit {
+    background-color: #ff0002;
+    height: 200px;
+    width: 200px;
+}
+.sweden {
+    display: inline-block;
+}
+.color-one-swe {
+    background-color: #0269a6;
+    height: 200px;
+    width: 320px;
+}
+.color-two-swe {
+    background-color: #fecc00;
+    height: 200px;
+    width: 320px;
+}
+.gambia {
+    display: inline-block;
+}
+.color-one-gam {
+    background-color: #ce1127;
+    height: 200px;
+    width: 300px;
+}
+.color-two-gam {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+}
+.color-three-gam {
+    background-color: #0d1d8b;
+    height: 200px;
+    width: 300px;
+}
+.color-four-gam {
+    background-color: #3b7827;
+    height: 200px;
+    width: 300px;
+}
+.japan {
+    display: inline-block;
+}
+.color-one-jap {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+}
+.color-two-jap {
+    background-color: #bc022c;
+    height: 200px;
+    width: 300px;
+}
+.niger {
+    display: inline-block;
+}
+.color-one-niger {
+    background-color: #e15307;
+    height: 200px;
+    width: 233;
+}
+.color-two-niger {
+    background-color: white;
+    height: 200px;
+    width: 233px;
+}
+.color-three-niger {
+    background-color: #10af2a;
+    height: 200px;
+    width: 233;
+}
+
+

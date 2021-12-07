@@ -1,0 +1,99 @@
+body {
+    display: grid;
+}
+@media(min-width: 768px) {
+    .red-boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 200px;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 6px;
+    }
+    .pink {
+        background-color: #f5c6f5;
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+
+    }
+    .red1 {
+        background-color: #ee2e84;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+
+    }
+    .red2 {
+        background-color: #ee2e84;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .red3 {
+        background-color: #ee2e84;
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    .red4 {
+        background-color: #ee2e84;
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+
+    }
+    .blue1 {
+        background-color: #85cfd8;
+        grid-column: 1 / 3;
+        grid-row: 3 / 4
+    }
+    .blue2 {
+        background-color: #85cfd8;
+        grid-column: 3 / 5;
+        grid-row: 3 / 4;
+    }
+    .green {
+        background-color: #8DC63F;
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+    }
+    .orange {
+        background-color: #E76E34;
+        grid-column: 4 / 5;
+        grid-row: 4 / 5
+    }
+}
+    .red-boxes {
+        display: grid;
+        height: 200px;
+        gap: 6px;
+        text-align: center;
+    }
+    
+    
+        
+    .pink {
+        background-color: #f5c6f5;
+    }
+    .red1 {
+        background-color: #ee2e84;
+        
+    }
+    .red2 {
+        background-color: #ee2e84;
+        
+    }
+    .red3 {
+        background-color: #ee2e84;
+    }
+    .red4 {
+        background-color: #ee2e84;
+    }
+    .blue1 {
+        background-color: #85cfd8;
+    }
+    .blue2 {
+        background-color: #85cfd8;
+    }
+    .green {
+        background-color: #8DC63F;
+    }
+    .orange {
+        background-color: #E76E34;
+    }
+    
