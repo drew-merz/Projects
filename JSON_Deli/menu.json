@@ -1,0 +1,67 @@
+{
+    "appetizers": [
+        {
+            "name": "Chips",
+            "ingredients": ["potato", "salt"],
+            "description": "Lightly salted potato chips"
+        },
+        {
+            "name": "Broccoli Cheddar Soup",
+            "ingredients": ["broccoli", "cheddar cheese", "salt", "crackers on the side"],
+            "description": "Delicous Broccoli with cheddar cheese in a creamy robust soup!"
+
+        }
+
+        
+    ],
+    "coldSandwiches": [
+        {
+            "name": "BLT",
+            "ingredients": ["bacon, lettuce, tomato, bread"],
+            "description": "Bacon, Lettuce, and Tomato between 2 pieces of delicous bread!"   
+        },
+        {
+            "name": "Turkey and Provolone",
+            "ingredients": ["turkey breast", "provolone cheese", "lettuce", "tomato", "bread"],
+            "description": "Turkey breast with rich provolone cheese, topped off with lettuce, tomato, and finally in our flaky fresh baked bread!"
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "name": "Ham and Cheese Melt",
+            "ingredients": ["ham", "cheese", "bread"],
+            "description": "Classic Ham and Cheese Melt, best served with chips or a side of soup!"
+        },
+        {
+            "name": "Chicken Parm Melt",
+            "ingredients": ["chicken", "parmesan cheese", "bread", "marinara sauce"],
+            "description": "Chicken Parmesan but wrapped between 2 pieces of bread and baked to perfection!"
+        }
+        
+    ],
+    "desserts": [
+        {
+            "name": "Chocolate Chip Cookie",
+            "ingredients": ["chocolate chips", "egg", "sugar"],
+            "description": "A soft delicious chocolate chip cookie!"
+        },
+        {
+            "name": "Vanilla Shake",
+            "ingredients": ["ice cream", "milk", "sugar", "cherry"],
+            "description": "Rich and Creamy Vanilla Shake topped with a delicous cherry!"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Lemonade",
+            "ingredients": ["lemons", "sugar", "water"],
+            "description": "A nice cold cup of fresh housemade lemonade! Not too sweet and not too sour!"
+        },
+        {
+            "name": "Lemon Lime Soda",
+            "ingredients": ["lemon", "lime", "carbonated water", "sugar"],
+            "description": "A ice cold cup of delectable lemon lime soda!"
+        }
+    ]
+    
+}

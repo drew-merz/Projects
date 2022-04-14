@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: #325050;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 100%;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+#header, #tile2{
+    background: url(http://www.csszengarden.com/214/huntington.jpg);
+    background-attachment: fixed;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#designs-button {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 80px;
+    margin-left: 80px;
+    height: 40px;
+    border: none;
+}
+#designs-button:hover {
+    background-color: #325050;
+}
+h1, h2{
+    text-align: center;
+    padding: 0, 10%;
+    
+}
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #fff;
+    border-bottom: none;
+    margin-top: 80px;
+}
+
+h2 {
+    color: #fff;
+    
+}
+#tile4 {
+    background-color: rgb(236, 238, 232);
+}
+p {
+    margin-left: 80px;
+    padding: 20px;
+}
+h3 {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.designs {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.design-names {
+    color: green;
+}
+#tile5, #tile6 {
+    background-image: url(http://www.csszengarden.com/214/bamboo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(138,188,159,0.5);
+}
+#tile6 {
+    background-color: rgba(138,188,159,0.7);
+}
+.tile6-sidebar {
+    margin-top: 50px;
+    margin-left: 100px;
+    list-style-type: none;
+}
+#tile8 {
+    background-color: rgb(236, 238, 232);
+}
+#tile9 {
+    background: url(http://www.csszengarden.com/214/koi.jpg);
+    background-repeat: no-repeat ;
+    grid-column: -1/1;
+}
+.author {
+    font-size: medium;
+    height: 200px;
+    text-align: center;
+}
+#tile10{
+    background-color: #325050;
+    height: 80px;
+    color: #fff;
+    grid-column: 1/-1; 
+}
+.fa-brands {
+    font-size: xx-large;
+    padding-left: 15px;
+    margin-left: 175px;
+}
+@media all and (max-width: 900px) {
+    #tile4 {
+        grid-row: 10/10;
+    }
+    #tile6 {
+        grid-row: 11/12;
+    }
+    #grid-container {
+        grid-template-columns: 1fr;
+    }
+    #designs-button {
+        margin-left: 500px;
+    }
+    #icons {
+        display: flex;
+        justify-content: space-around;
+        font-size: 50px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
