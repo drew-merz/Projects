@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {  
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to left, rgb(140, 228, 223), rgb(147, 59, 197));
+    background-size: 100%;
+}
+
+#pageTitle {
+  
+    text-align: center;
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+
+#todo-box {
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background: rgb(140, 228, 223);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+#listTitle {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1/4;
+    text-align: center;
+    margin-left: 115px;;
+}
+
+#todo-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(20px, auto);
+    background: rgb(202, 247, 244);
+    text-align: left;
+    
+}
+
+#todo-list h3 {
+    padding: 25px;
+    font-size: large;
+    margin: 40px;
+    
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
